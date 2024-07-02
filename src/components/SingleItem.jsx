@@ -24,7 +24,7 @@ const SingleItem = ({
     editItem(id);
   };
 
-  const urlImages = `/src/images/${type}.png`;
+  const urlImages = `/${type}.png`;
 
   return (
     <div className="single-item">
